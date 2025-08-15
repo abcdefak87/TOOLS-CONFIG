@@ -1,0 +1,78 @@
+{
+  "rules": [
+    {
+      "nama": "Ganti brand GARUDAMEDIA → UNNET",
+      "aktif": true,
+      "blok": ["Sec. 1", "Sec. 2"],
+      "interface": "semua",
+      "tipe": "ganti_text",
+      "dari": "GARUDAMEDIA",
+      "menjadi": "UNNET",
+      "keterangan": "Ganti brand di semua interface dan blok"
+    },
+    {
+      "nama": "Ganti VLAN service-port SP1-SP3",
+      "aktif": true,
+      "blok": ["Sec. 1"],
+      "interface": "semua",
+      "tipe": "ganti_beberapa",
+      "ganti_beberapa": [
+        {"dari": "service-port 1 vport 1 user-vlan 1000 vlan 1000", "menjadi": "service-port 1 vport 1 user-vlan 3020 vlan 3020"},
+        {"dari": "service-port 2 vport 1 user-vlan 1001 vlan 1001", "menjadi": "service-port 2 vport 1 user-vlan 3022 vlan 3022"},
+        {"dari": "service-port 3 vport 1 user-vlan 1002 vlan 1002", "menjadi": "service-port 3 vport 1 user-vlan 100 vlan 100"}
+      ],
+      "keterangan": "Update VLAN SP1-SP3 di Sec.1"
+    },
+    {
+      "nama": "Sisipkan catatan setelah tcont profile",
+      "aktif": true,
+      "blok": ["Sec. 1"],
+      "interface": "semua",
+      "tipe": "sisip_baris",
+      "lokasi": "setelah",
+      "target": "tcont 1 profile UNNET-1G-UP",
+      "baris_baru": [
+        "  # Catatan tambahan setelah tcont profile"
+      ],
+      "keterangan": "Sisipkan baris baru di Sec.1 setelah tcont profile"
+    },
+    {
+      "nama": "Update user/password TR069",
+      "aktif": true,
+      "blok": ["Sec. 2"],
+      "interface": "semua",
+      "tipe": "ganti_text",
+      "dari": "user JMP-OLD",
+      "menjadi": "user JMP-NEW",
+      "keterangan": "Ganti user TR069 di semua interface Sec.2"
+    },
+    {
+      "nama": "Sisipkan TR069 sebelum HOTSPOT",
+      "aktif": true,
+      "blok": ["Sec. 2"],
+      "interface": "semua",
+      "tipe": "sisip_baris",
+      "lokasi": "sebelum",
+      "target": "service HOTSPOT gemport 1 vlan 1001",
+      "baris_baru": [
+        "  service TR069 gemport 1 vlan 100"
+      ],
+      "keterangan": "Sisipkan TR069 sebelum service HOTSPOT di Sec.2"
+    },
+    {
+      "nama": "Sisipkan TR069-mgmt setelah vlan port wifi",
+      "aktif": true,
+      "blok": ["Sec. 2"],
+      "interface": "semua",
+      "tipe": "sisip_baris",
+      "lokasi": "setelah_terakhir",
+      "target": "vlan port wifi",
+      "baris_baru": [
+        "  tr069-mgmt 1 state unlock",
+        "  tr069-mgmt 1 acs http://172.17.11.6:7547 validate basic username unnet.acs password unnet.acs123",
+        "  tr069-mgmt 1 tag pri 0 vlan 100"
+      ],
+      "keterangan": "Sisipkan TR069-mgmt tepat setelah baris terakhir vlan port wifi di Sec.2"
+    }
+  ]
+} 
