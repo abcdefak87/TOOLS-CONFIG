@@ -3,75 +3,81 @@
     {
       "name": "update_brand_unnet",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "from": "",
-      "to": ""
+      "blocks": ["Sec.1"],
+      "interface": "all",
+      "type": "replace_text",
+      "from": "OLD_BRAND",
+      "to": "NEW_BRAND"
     },
     {
       "name": "update_vlan_sp",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "replace_multiple": []
+      "blocks": ["Sec.1"],
+      "interface": "all",
+      "type": "replace_multiple",
+      "replace_multiple": [
+        {"from": "VLAN_OLD", "to": "VLAN_NEW"},
+        {"from": "VLAN_OLD2", "to": "VLAN_NEW2"}
+      ]
     },
     {
       "name": "replace_tcont_gemport",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "replace_multiple": []
+      "blocks": ["Sec.2"],
+      "interface": "all",
+      "type": "replace_multiple",
+      "replace_multiple": [
+        {"from": "TCONT_OLD", "to": "TCONT_NEW"},
+        {"from": "GEMPORT_OLD", "to": "GEMPORT_NEW"}
+      ]
     },
     {
       "name": "insert_aabb_after_vlan1001",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "target": "",
-      "position": "",
-      "new_lines": []
+      "blocks": ["Sec.1"],
+      "interface": "all",
+      "type": "insert_line",
+      "target": "vlan 1001",
+      "position": "after",
+      "new_lines": ["aabb enable"]
     },
     {
       "name": "update_ssid_wifi",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "from": "",
-      "to": ""
+      "blocks": ["Sec.1"],
+      "interface": "all",
+      "type": "replace_text",
+      "from": "SSID_OLD",
+      "to": "SSID_NEW"
     },
     {
       "name": "insert_tr069_before_hotspot",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "target": "",
-      "position": "",
-      "new_lines": []
+      "blocks": ["Sec.1"],
+      "interface": "all",
+      "type": "insert_line",
+      "target": "hotspot",
+      "position": "before",
+      "new_lines": ["tr069 enable"]
     },
     {
       "name": "insert_tr069_mgmt_after_wifi",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "target": "",
-      "position": "",
-      "new_lines": []
+      "blocks": ["Sec.1"],
+      "interface": "all",
+      "type": "insert_line",
+      "target": "wifi",
+      "position": "after",
+      "new_lines": ["tr069-mgmt enable"]
     },
     {
       "name": "update_tr069_user",
       "active": true,
-      "blocks": [""],
-      "interface": "",
-      "type": "",
-      "from": "",
-      "to": ""
+      "blocks": ["Sec.1"],
+      "interface": "all",
+      "type": "replace_text",
+      "from": "TR069_USER_OLD",
+      "to": "TR069_USER_NEW"
     }
   ]
 }
