@@ -1,40 +1,101 @@
 {
   "rules": [
+
+    // ===============================
+    // CHANGE BRAND
+    // ===============================
     {
-      "nama": "Ganti brand GARUDAMEDIA → UNNET",
-      "aktif": true,
-      "blok": ["Sec. 1", "Sec. 2"],
-      "interface": "semua",
-      "tipe": "ganti_text",
-      "dari": "GARUDAMEDIA",
-      "menjadi": "UNNET",
-      "keterangan": "Ganti brand di semua interface dan blok"
+      "section": "CHANGE BRAND",
+      "name": "change_brand",
+      "active": true,
+      "blocks": ["Sec.1", "Sec.2"],
+      "interface": "all",
+      "type": "replace_text",
+      "from": "GARUDAMEDIA",
+      "to": "UNNET",
+      "description": "Replace brand name in Sec.1 & Sec.2"
     },
+
+    // ===============================
+    // CHANGE VLAN
+    // ===============================
     {
-      "nama": "Ganti VLAN service-port SP1-SP3",
-      "aktif": true,
-      "blok": ["Sec. 1"],
-      "interface": "semua",
-      "tipe": "ganti_beberapa",
-      "ganti_beberapa": [
-        {"dari": "service-port 1 vport 1 user-vlan 1000 vlan 1000", "menjadi": "service-port 1 vport 1 user-vlan 3020 vlan 3020"},
-        {"dari": "service-port 2 vport 1 user-vlan 1001 vlan 1001", "menjadi": "service-port 2 vport 1 user-vlan 3022 vlan 3022"},
-        {"dari": "service-port 3 vport 1 user-vlan 1002 vlan 1002", "menjadi": "service-port 3 vport 1 user-vlan 100 vlan 100"}
+      "section": "CHANGE VLAN",
+      "name": "change_vlan",
+      "active": true,
+      "blocks": ["Sec.1"],
+      "interface": "gpon-onu_1/3/12:2",
+      "type": "replace_multiple",
+      "replace_multiple": [
+        {
+          "from": "service-port 1 vport 1 user-vlan 1000 vlan 1000",
+          "to": "service-port 1 vport 1 user-vlan 3020 vlan 3020"
+        },
+        {
+          "from": "service-port 2 vport 1 user-vlan 1001 vlan 1001",
+          "to": "service-port 2 vport 1 user-vlan 3022 vlan 3022"
+        },
+        {
+          "from": "service-port 3 vport 1 user-vlan 1002 vlan 1002",
+          "to": "service-port 3 vport 1 user-vlan 100 vlan 100"
+        }
       ],
-      "keterangan": "Update VLAN SP1-SP3 di Sec.1"
+      "description": "Replace VLAN SP1-SP3 in Sec.1 for specific interface"
     },
+
+    // ===============================
+    // CHANGE SSID
+    // ===============================
     {
-      "nama": "Sisipkan catatan setelah tcont profile",
-      "aktif": true,
-      "blok": ["Sec. 1"],
-      "interface": "semua",
-      "tipe": "sisip_baris",
-      "lokasi": "setelah",
-      "target": "tcont 1 profile UNNET-1G-UP",
-      "baris_baru": [
-        "  # Catatan tambahan setelah tcont profile"
+      "section": "CHANGE SSID",
+      "name": "change_ssid",
+      "active": true,
+      "blocks": ["Sec.2"],
+      "interface": "gpon-onu_1/3/12:61",
+      "type": "replace_text",
+      "from": "ssid ctrl wifi_0/4 name OLDSSID",
+      "to": "ssid ctrl wifi_0/4 name UNNET.ID",
+      "description": "Update Wi-Fi SSID in Sec.2"
+    },
+
+    // ===============================
+    // INSERT TR069 BEFORE HOTSPOT
+    // ===============================
+    {
+      "section": "INSERT TR069 BEFORE HOTSPOT",
+      "name": "insert_tr069_before_hotspot",
+      "active": true,
+      "blocks": ["Sec.2"],
+      "interface": "gpon-onu_1/3/12:61",
+      "type": "insert_line",
+      "target": "service HOTSPOT gemport 1 vlan 1001",
+      "position": "before",
+      "new_lines": ["  service TR069 gemport 1 vlan 100"],
+      "description": "Insert TR069 service before HOTSPOT"
+    },
+
+    // ===============================
+    // INSERT TR069-MGMT AFTER WIFI VLAN
+    // ===============================
+    {
+      "section": "INSERT TR069-MGMT",
+      "name": "insert_tr069_mgmt",
+      "active": true,
+      "blocks": ["Sec.2"],
+      "interface": "gpon-onu_1/3/12:61",
+      "type": "insert_line",
+      "target": "vlan port wifi",
+      "position": "after_last",
+      "new_lines": [
+        "  tr069-mgmt 1 state unlock",
+        "  tr069-mgmt 1 acs http://172.17.11.6:7547 validate basic username unnet.acs password unnet.acs123",
+        "  tr069-mgmt 1 tag pri 0 vlan 100"
       ],
-      "keterangan": "Sisipkan baris baru di Sec.1 setelah tcont profile"
+      "description": "Insert TR069-mgmt lines after all wifi vlan lines"
+    }
+
+  ]
+    }      "keterangan": "Sisipkan baris baru di Sec.1 setelah tcont profile"
     },
     {
       "nama": "Update user/password TR069",
