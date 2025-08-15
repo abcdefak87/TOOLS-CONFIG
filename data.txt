@@ -1,0 +1,2356 @@
+interface gpon-olt_1/3/12
+  no shutdown
+  linktrap disable
+  onu 1 type ZTEG-F670L sn ZTEGD089C523
+  onu 2 type ALL-ONT sn ZTEGCC44254D
+  onu 3 type ZTEG-F670L sn ZTEGD1C260DA
+  onu 4 type ZTEG-F670L sn ZTEGD0835E47
+  onu 5 type ZTEG-F670L sn ZTEGCE7DA200
+  onu 6 type ZTEG-F670L sn ZTEGCED88794
+  onu 7 type ALL-ONT sn ZTEGC896D01D
+  onu 8 type ALL-ONT sn ZTEGC8520B04
+  onu 9 type ALL-ONT sn ZTEGCCB21C8B
+  onu 10 type ALL-ONT sn ZTEGCD7751A8
+  onu 11 type ZTEG-F670L sn ZTEGC1F16C12
+  onu 12 type ALL-ONT sn ZTEGC0F1030A
+  onu 13 type ALL-ONT sn ZTEGCC507BD1
+  onu 14 type ZTEG-F670L sn ZTEGC4566915
+  onu 15 type ZTEG-F670L sn ZTEGD112D411
+  onu 16 type ZTEG-F670L sn ZTEGD0880214
+  onu 17 type ALL-ONT sn ZTEGCC578BF4
+  onu 18 type ALL-ONT sn ZTEGC84B5F26
+  onu 19 type ALL-ONT sn ZTEGC87808F1
+  onu 20 type ZTEG-F670L sn ZTEGD088183C
+  onu 21 type ALL-ONT sn ZTEGC88ECFD0
+  onu 22 type ALL-ONT sn ZTEGC8725C6C
+  onu 23 type ALL-ONT sn ZTEGC86232F0
+  onu 24 type ZTEG-F670L sn ZTEGCF922809
+  onu 25 type ALL-ONT sn ZTEGCBD9451F
+  onu 26 type ALL-ONT sn ZTEGD1F0CE41
+  onu 27 type ALL-ONT sn ZTEGC861D42A
+  onu 28 type ALL-ONT sn ZTEGC84ED616
+  onu 29 type ALL-ONT sn ZTEGCC8CB523
+  onu 30 type ALL-ONT sn ZTEGC8646AB1
+  onu 31 type ALL-ONT sn ZTEGC88083A9
+  onu 32 type ALL-ONT sn ZTEGCE307223
+  onu 33 type ZTEG-F670L sn ZTEGC456EE96
+  onu 34 type ZTEG-F670L sn ZTEGD33061B1
+  onu 35 type ALL-ONT sn ZTEGC88A9504
+  onu 36 type ALL-ONT sn ZTEGC89508CB
+  onu 37 type ALL-ONT sn ZTEGC851164C
+  onu 38 type ALL-ONT sn ZTEGCC524FD1
+  onu 39 type ALL-ONT sn ZTEGCC9F9D4B
+  onu 40 type ZTEG-F670L sn ZTEGD089BC9F
+  onu 41 type ZTEG-F670L sn ZTEGCFFCF7B7
+  onu 42 type ZTEG-F670L sn ZTEGD112CCBE
+  onu 43 type ZTEG-F670L sn ZTEGCE727E97
+  onu 44 type ZTEG-F670L sn ZTEGD0624700
+  onu 45 type ALL-ONT sn ZTEGC8A75F01
+  onu 46 type ALL-ONT sn ZTEGCC91F457
+  onu 47 type ALL-ONT sn ZTEGC8515CC3
+  onu 48 type ZTEG-F670L sn ZTEGD2930A41
+  onu 49 type ALL-ONT sn ZTEGCC98CBF7
+  onu 50 type ZTEG-F670L sn ZTEGD089E93C
+  onu 51 type ALL-ONT sn ZTEGCCA7E332
+  onu 52 type ALL-ONT sn ZTEGD33C5374
+  onu 53 type ALL-ONT sn ZTEGCC4A93CA
+  onu 54 type ZTEG-F670L sn ZTEGD0881723
+  onu 55 type ZTEG-F670L sn ZTEGD066E916
+  onu 56 type ZTEG-F670L sn ZTEGD112CE05
+  onu 57 type ZTEG-F670L sn ZTEGD232483F
+  onu 58 type ZTEG-F670L sn ZTEGD10B5BD7
+  onu 59 type ZTEG-F670L sn ZTEGD2326FFD
+  onu 60 type ZTEG-F670L sn ZTEGD36CE46F
+  onu 61 type ALL-ONT sn ZTEGCC478C66
+  onu 62 type ALL-ONT sn ZTEGCD778F6D
+  onu 63 type ALL-ONT sn ZTEGC86B6A50
+  onu 64 type ZTEG-F670L sn ZTEGCFFD066F
+  onu 65 type ALL-ONT sn ZTEGCD68351C
+  onu 66 type ZTEG-F670L sn ZTEGD5D47698
+  onu 67 type ZTEG-F670L sn ZTEGCF9780C2
+  onu 68 type ZTEG-F670L sn ZTEGCF04ED5E
+  onu 69 type ZTEG-F670L sn ZTEGD1132096
+  onu 70 type ZTEG-F670L sn ZTEGD10A0B18
+  onu 71 type ZTEG-F670L sn ZTEGD4BE8D8A
+  onu 72 type ALL-ONT sn ZTEGC894E751
+  onu 73 type ALL-ONT sn ZTEGC8839B35
+  onu 74 type ALL-ONT sn ZTEGC85B27FD
+  onu 75 type ZTEG-F670L sn ZTEGD23AB431
+  onu 76 type ALL-ONT sn ZTEGC84B3C92
+  onu 77 type ZTEG-F670L sn ZTEGD36CE653
+  onu 78 type ALL-ONT sn ZTEGC861F606
+  onu 79 type ALL-ONT sn ZTEGC88D63F4
+  onu 80 type ALL-ONT sn ZTEGC86A1F22
+  onu 81 type ZTEG-F670L sn ZTEGC4560C00
+  onu 82 type ZTEG-F670L sn ZTEGCE729735
+  onu 83 type ALL-ONT sn ZTEGCCB8C958
+  onu 84 type ALL-ONT sn ZTEGC860A44B
+  onu 85 type ALL-ONT sn ZTEGC85E9BA8
+!
+interface gpon-onu_1/3/12:1
+  name JMP-SHOLIKUN-MUALIF-12/5
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:2
+  name JMP-AHMAD-DWI-NUR-S-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:3
+  name JMP-SUTIKNO-WARKOP-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:4
+  name JMP-SAMIDI-12/6
+  description ODP-JMP-12/6
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:5
+  name JMP-NUR-UMAHATI-12/6
+  description ODP-JMP-12/6
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:6
+  name JMP-BUSTANUL-RIDWAN-12/6
+  description ODP-JMP-12/6
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:7
+  name JMP-SITI-ROSYIDAH-12/13
+  description ODP-JMP-12/13
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:8
+  name JMP-MUH-DIDIK-N-D-12/13
+  description ODP-JMP-12/13
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:9
+  name JMP-SUJUD-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:10
+  name JMP-WACHIDATUN-N-U-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:11
+  name JMP-MARHAMAH
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:12
+  name JMP-SULASIH
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:13
+  name JMP-SYAROFUL-ANAM
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:14
+  name JMP-MOH-JANAR-EKO-P
+  description ODP-JMP-12/14
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:15
+  name JMP-IRFAN
+  description ODP-JMP-12/2
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:16
+  name JMP-ZAROH
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:17
+  name JMP-RASIMAH
+  description ODP-JMP-12/6
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:18
+  name JMP-TATIK-CELL-12/5
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:19
+  name JMP-LASMIATI-12/10
+  description ODP-JMP-12/10
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:20
+  name JMP-RIKA-NUR-12/9
+  description ODP-SHJ-13/10
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:21
+  name JMP-PEBRI-12/9
+  description ODP-JMP-12/9
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:22
+  name JMP-ULFI-MUALIFATUL-12/9
+  description ODP-JMP-12/9
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:23
+  name JMP-AHMAD-ALFA-N-12/5
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:24
+  name JMP-RIYADHOTUL-ULFA-12/9
+  description ODP-JM-12/9
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:25
+  name JMP-WIDODO-12/9
+  description ODP-BRG-6/13
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:26
+  name JMP-AHMAD-KHOTIM-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:27
+  name JMP-ARIF-EFENDI-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:28
+  name JMP-ALIM-SAMSUL-H-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:29
+  name JMP-M-VICKY-SAIFULLAH-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:30
+  name JMP-YULIAH-12/11
+  description ODP-JMP-12/11
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:31
+  name JMP-SITI-ASIYAH-12/9
+  description ODP-JMP-12/9
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:32
+  name JMP-FADLAN-ARIF-12/1
+  description ODP-JMP-12/1
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:33
+  name JMP-APRILIA-ARDIANTI-12/2
+  description ODP-JMP-12/2
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:34
+  name JMP-CISILIA-TITIK-L-12/4
+  description ODP-JMP-12/4
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:35
+  name JMP-M-ISMAIL-12/4
+  description ODP-JMP-12/4
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:36
+  name JMP-ABDUL-LATIF-12/1
+  description ODP-JMP-12/1
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:37
+  name JMP-SARIFUDIN-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:38
+  name JMP-PURWATI-12/5
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:39
+  name JMP-SITI-ANISATUL-L-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:40
+  name JMP-MASJID-TOMY-INDR-12/1
+  description ODP-JMP-12/1
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:41
+  name JMP-M-YHOYYIB-12/3
+  description ODP-JMP-12/3
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:42
+  name JMP-RUSMINI-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:43
+  name JMP-DASIH-NUR-HIDAY-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:44
+  name JMP-TRI-WAHYULI-12/14
+  description ODP-JMP-12/14
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:45
+  name JMP-MUH-QOMARUDDIN-12/9
+  description ODP-JMP-12/9
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:46
+  name JMP-YASNI-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:47
+  name BTH-SRH-NURHADI-14/11
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:48
+  name JMP-M-ALI-DIRUN-12/11
+  description JMP-12/11
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:49
+  name JMP-DARMINTO-12/3
+  description ODP-JMP-12/3
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:50
+  name JMP-ASEP-EFENDI-IRF-12/13
+  description ODP-JMP-12/13
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:51
+  name JMP-SUMIATIK-12/13
+  description ODP-JMP-12/13
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:52
+  name JMP-MOH-NUR-FAQIH-12/16
+  description ODP-JMMP-12/16
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:53
+  name JMP-M-KHOWI-UN-A-12/16
+  description ODP-JMP-12/16
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:54
+  name JMP-NYU-UNTORO-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:55
+  name JMP-SUPRIANTO-12/14
+  description ODP-JMP-12/14
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:56
+  name JMP-TASLIM-12/12
+  description ODP-JMP-12/12
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:57
+  name JMP-MUNAWAROH-12/1
+  description ODP-JMP-12/1
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:58
+  name JMP-ERLINA-DIA-APRIL-12/2
+  description ODP-JMP-12/2
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:59
+  name JMP-ENY-AGUSTINA-12/1
+  description ODP-JMP-12/1
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:60
+  name JMP-KHUSNIA-LATIFAH-12/1
+  description ODP-JMP-12/1
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:61
+  name JMP-NGASRIATUN-12/3
+  description ODP-JMP-12/3
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:62
+  name JMP-YURISA-ISTIQOMAH-12/6
+  description ODP-JMP-12/6
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:63
+  name JMP-MUSTAQIM-12/5
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:64
+  name JMP-DEWI-ARDIANTI-K-12/2
+  description ODP-JMP-12/2
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:65
+  name JMP-SUNARTI-12/6
+  description ODP-JMP-12/6
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:66
+  name JMP-NURROHMAN-12/9
+  description ODP-JMP-12/9
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:67
+  name JMP-NGADNAN-NGADIANT-12/2
+  description ODP-JMP-12/2
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:68
+  name JMP-EDY-SANTOSO-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:69
+  name JMP-M-MUALLIMIN-12/14
+  description ODP-JMP-12/14
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:70
+  name JMP-UMMI-AFIFATUL-C-12/6
+  description ODP-JMP-12/6
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:71
+  name JMP-LITA-RAHMAWATI-12/3
+  description ODP-JMP-12/3
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:72
+  name JMP-M-AFIF-K-N-12/16
+  description ODP-JMP-12/16
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:73
+  name JMP-TAMPI-12/13
+  description ODP-JMP-12/13
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:74
+  name JMP-DASRI-12/3
+  description ODP-JMP-12/3
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:75
+  name JMP-DIAH-MITA-P-N-12/9
+  description ODP-JMP-12/9
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:76
+  name JMP-KHOSIAH-12/2
+  description ODP-JMP12/2
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:77
+  name JMP-AFRIDHA-F-A-12/3
+  description ODP-JMP-12/3
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:78
+  name JMP-YULI-NATALIA-12/15
+  description ODP-JMP-12/15
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:79
+  name JMP-NUR-MUCHAMAD-I-12/16
+  description ODP-JMP-12/16
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:80
+  name JMP-SUPRAYITNO-12/14
+  description ODP-JMP-12/14
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:81
+  name JMP-SUPRIANTO-12/5
+  description ODP-JMP-12/5
+  disable-first-online-alarm
+  tcont 1 profile GARUDAMEDIA-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream GARUDAMEDIA-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+!
+interface gpon-onu_1/3/12:82
+  name JMP-RIRIN-K-12/11
+  description ODP-JMP-12/11
+  tcont 1 profile UNNET-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream UNNET-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+  service-port 3 vport 1 user-vlan 100 vlan 100 
+!
+interface gpon-onu_1/3/12:83
+  name JMP-RIRIN-K-N-12/11
+  description ODP-JMP-12/11
+  disable-first-online-alarm
+  tcont 1 profile UNNET-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream UNNET-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+  service-port 3 vport 1 user-vlan 100 vlan 100 
+!
+interface gpon-onu_1/3/12:84
+  name JMP-SHOLIKIN-N-11/12
+  description ODP-JMP-11/12
+  disable-first-online-alarm
+  tcont 1 profile UNNET-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream UNNET-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+  service-port 3 vport 1 user-vlan 69 vlan 69 
+!
+interface gpon-onu_1/3/12:85
+  name JMP-SURAT-12/13
+  description ODP-JMP-12/13
+  disable-first-online-alarm
+  tcont 1 profile UNNET-1G-UP
+  gemport 1 name Internet tcont 1
+  gemport 1 traffic-limit downstream UNNET-1G-DOWN 
+  service-port 1 vport 1 user-vlan 1000 vlan 1000 
+  service-port 2 vport 1 user-vlan 1001 vlan 1001 
+  service-port 3 vport 1 user-vlan 69 vlan 69 
+!
+pon-onu-mng gpon-onu_1/3/12:1
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  interface wifi wifi_0/5 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SHOLIKUN-MUALIF-12/5 password JMP-SHOLIKUN-MUALIF-12/5
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+  ssid ctrl wifi_0/8 name unnet.id_5G
+!
+pon-onu-mng gpon-onu_1/3/12:2
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-AHMAD-DWI-NUR-S-12/12 password JMP-AHMAD-DWI-NUR-S-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:3
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  interface wifi wifi_0/5 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SUTIKNO-WARKOP-12/12 password JMP-SUTIKNO-WARKOP-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:4
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SAMIDI-12/6 password JMP-SAMIDI-12/6
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet-id
+  ssid ctrl wifi_0/8 name unnet-id_5G
+!
+pon-onu-mng gpon-onu_1/3/12:5
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  interface wifi wifi_0/5 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-NUR-UMAHATI-12/6 password JMP-NUR-UMAHATI-12/6
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:6
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  interface wifi wifi_0/5 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-BUSTANUL-RIDWAN-12/6 password JMP-BUSTANUL-RIDWAN-12/6
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+  ssid ctrl wifi_0/8 name unnet.id_5G
+!
+pon-onu-mng gpon-onu_1/3/12:7
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SITI-ROSYIDAH-12/13 password JMP-SITI-ROSYIDAH-12/13
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:8
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MUH-DIDIK-N-D-12/13 password JMP-MUH-DIDIK-N-D-12/13
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet
+!
+pon-onu-mng gpon-onu_1/3/12:9
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SUJUD-12/12 password JMP-SUJUD-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+!
+pon-onu-mng gpon-onu_1/3/12:10
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-WACHIDATUN-N-U-12/12 password JMP-WACHIDATUN-N-U-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+!
+pon-onu-mng gpon-onu_1/3/12:11
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  interface wifi wifi_0/5 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MARHAMAH password JMP-MARHAMAH
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:12
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  interface wifi wifi_0/1 state lock
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SULASIH password JMP-SULASIH
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:13
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SYAROFUL-ANAM password JMP-SYAROFUL-ANAM
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:14
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MOH-JANAR-EKO-P password JMP-MOH-JANAR-EKO-P
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+!
+pon-onu-mng gpon-onu_1/3/12:15
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-IRFAN password JMP-IRFAN
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+  ssid ctrl wifi_0/8 name UNNET-ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:16
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ZAROH password JMP-ZAROH
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:17
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-RASIMAH password JMP-RASIMAH
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:18
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-TATIK-CELL-12/5 password JMP-TATIK-CELL-12/5
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:19
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-LASMIATI-12/10 password JMP-LASMIATI-12/10
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:20
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-RIKA-NUR-12/9 password JMP-RIKA-NUR-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:21
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-PEBRI-12/9 password JMP-PEBRI-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:22
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ULFI-MUALIFATUL-12/9 password JMP-ULFI-MUALIFATUL-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:23
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-AHMAD-ALFA-N-12/5 password JMP-AHMAD-ALFA-N-12/5
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+!
+pon-onu-mng gpon-onu_1/3/12:24
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-RIYADHOTUL-ULFA-12/9 password JMP-RIYADHOTUL-ULFA-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet
+  ssid ctrl wifi_0/8 name unnet_5G
+!
+pon-onu-mng gpon-onu_1/3/12:25
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-WIDODO-12/9 password JMP-WIDODO-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:26
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-AHMAD-KHOTIM-12/15 password JMP-AHMAD-KHOTIM-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:27
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ARIF-EFENDI-12/15 password JMP-ARIF-EFENDI-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:28
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ALIM-SAMSUL-H-12/15 password JMP-ALIM-SAMSUL-H-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:29
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:30
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-YULIAH-12/11 password JMP-YULIAH-12/11
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:31
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SITI-ASIYAH-12/9 password JMP-SITI-ASIYAH-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:32
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-FADLAN-ARIF-12/1 password JMP-FADLAN-ARIF-12/1
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:33
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-APRILIA-ARDIANTI-12/2 password JMP-APRILIA-ARDIANTI-12/2
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name Unnet.id
+  ssid ctrl wifi_0/8 name Unnet.id_5G
+!
+pon-onu-mng gpon-onu_1/3/12:34
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-CISILIA-TITIK-L-12/4 password JMP-CISILIA-TITIK-L-12/4
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+  ssid ctrl wifi_0/8 name UNNET-ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:35
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-M-ISMAIL-12/4 password JMP-M-ISMAIL-12/4
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:36
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ABDUL-LATIF-12/1 password JMP-ABDUL-LATIF-12/1
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet
+!
+pon-onu-mng gpon-onu_1/3/12:37
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SARIFUDIN-12/12 password JMP-SARIFUDIN-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:38
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-PURWATI-12/5 password JMP-PURWATI-12/5
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:39
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SITI-ANISATUL-L-12/15 password JMP-SITI-ANISATUL-L-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet-id
+!
+pon-onu-mng gpon-onu_1/3/12:40
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MASJID-TOMY-INDR-12/1 password JMP-MASJID-TOMY-INDR-12/1
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+  ssid ctrl wifi_0/8 name UNNET-ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:41
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-M-YHOYYIB-12/3 password JMP-M-YHOYYIB-12/3
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:42
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-RUSMINI-12/12 password JMP-RUSMINI-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:43
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-DASIH-NUR-HIDAY-12/15 password JMP-DASIH-NUR-HIDAY-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET
+  ssid ctrl wifi_0/8 name UNNET_5G
+!
+pon-onu-mng gpon-onu_1/3/12:44
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-TRI-WAHYULI-12/14 password JMP-TRI-WAHYULI-12/14
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:45
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MUH-QOMARUDDIN-12/9 password JMP-MUH-QOMARUDDIN-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:46
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-YASNI-12/12 password JMP-YASNI-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:47
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-RIDHO-SINARJAYA-12/12 password JMP-RIDHO-SINARJAYA-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:48
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-M-ALI-DIRUN-12/11 password JMP-M-ALI-DIRUN-12/11
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET
+  ssid ctrl wifi_0/8 name UNNET_5G
+!
+pon-onu-mng gpon-onu_1/3/12:49
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-DARMINTO-12/3 password JMP-DARMINTO-12/3
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet
+!
+pon-onu-mng gpon-onu_1/3/12:50
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ASEP-EFENDI-IRF-12/13 password JMP-ASEP-EFENDI-IRF-12/13
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET
+  ssid ctrl wifi_0/8 name UNNET_5G
+!
+pon-onu-mng gpon-onu_1/3/12:51
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SUMIATIK-12/13 password JMP-SUMIATIK-12/13
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+!
+pon-onu-mng gpon-onu_1/3/12:52
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MOH-NUR-FAQIH-12/16 password JMP-MOH-NUR-FAQIH-12/16
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:53
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-M-KHOWI-UN-A-12/16 password JMP-M-KHOWI-UN-A-12/16
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+!
+pon-onu-mng gpon-onu_1/3/12:54
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-NYU-UNTORO-12/15 password JMP-NYU-UNTORO-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet
+  ssid ctrl wifi_0/8 name unnet_5G
+!
+pon-onu-mng gpon-onu_1/3/12:55
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SUPRIANTO-12/14 password JMP-SUPRIANTO-12/14
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:56
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-TASLIM-12/12 password JMP-TASLIM-12/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet-id
+  ssid ctrl wifi_0/8 name unnet-id_5G
+!
+pon-onu-mng gpon-onu_1/3/12:57
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MUNAWAROH-12/1 password JMP-MUNAWAROH-12/1
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET
+  ssid ctrl wifi_0/8 name UNNET_5G
+!
+pon-onu-mng gpon-onu_1/3/12:58
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ERLINA-DIA-APRIL-12/2 password JMP-ERLINA-DIA-APRIL-12/2
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:59
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-ENY-AGUSTINA-12/1 password JMP-ENY-AGUSTINA-12/1
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet
+  ssid ctrl wifi_0/8 name unnet_5G
+!
+pon-onu-mng gpon-onu_1/3/12:60
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-KHUSNIA-LATIFAH-12/1 password JMP-KHUSNIA-LATIFAH-12/1
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET
+  ssid ctrl wifi_0/8 name UNNET_5G
+!
+pon-onu-mng gpon-onu_1/3/12:61
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-NGASRIATUN-12/3 password JMP-NGASRIATUN-12/3
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:62
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-YURISA-ISTIQOMAH-12/6 password JMP-YURISA-ISTIQOMAH-12/6
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:63
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-MUSTAQIM-12/5 password JMP-MUSTAQIM-12/5
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+!
+pon-onu-mng gpon-onu_1/3/12:64
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-DEWI-ARDIANTI-K-12/2 password JMP-DEWI-ARDIANTI-K-12/2
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:65
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SUNARTI-12/6 password JMP-SUNARTI-12/6
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+!
+pon-onu-mng gpon-onu_1/3/12:66
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-NURROHMAN-12/9 password JMP-NURROHMAN-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:67
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-NGADNAN-NGADIANT-12/2 password JMP-NGADNAN-NGADIANT-12/2
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet.id
+  ssid ctrl wifi_0/8 name unnet.id_5G
+!
+pon-onu-mng gpon-onu_1/3/12:68
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-EDY-SANTOSO-12/15 password JMP-EDY-SANTOSO-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+  ssid ctrl wifi_0/8 name UNNET.ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:69
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-M-MUALLIMIN-12/14 password JMP-M-MUALLIMIN-12/14
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet-id
+  ssid ctrl wifi_0/8 name unnet-id_5G
+!
+pon-onu-mng gpon-onu_1/3/12:70
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-UMMI-AFIFATUL-C-12/6 password JMP-UMMI-AFIFATUL-C-12/6
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+  ssid ctrl wifi_0/8 name UNNET-ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:71
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-LITA-RAHMAWATI-12/3 password JMP-LITA-RAHMAWATI-12/3
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET
+  ssid ctrl wifi_0/8 name UNNET_5G
+!
+pon-onu-mng gpon-onu_1/3/12:72
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-M-AFIF-K-N-12/16 password JMP-M-AFIF-K-N-12/16
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:73
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-TAMPI-12/13 password JMP-TAMPI-12/13
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:74
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-DASRI-12/3 password JMP-DASRI-12/3
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:75
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-DIAH-MITA-P-N-12/9 password JMP-DIAH-MITA-P-N-12/9
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+  ssid ctrl wifi_0/8 name UNNET-ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:76
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-KHOSIAH-12/2 password JMP-KHOSIAH-12/2
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:77
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-AFRIDHA-F-A-12/3 password JMP-AFRIDHA-F-A-12/3
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET
+  ssid ctrl wifi_0/8 name UNNET_5G
+!
+pon-onu-mng gpon-onu_1/3/12:78
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-YULI-NATALIA-12/15 password JMP-YULI-NATALIA-12/15
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+!
+pon-onu-mng gpon-onu_1/3/12:79
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-NUR-MUCHAMAD-I-12/16 password JMP-NUR-MUCHAMAD-I-12/16
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+!
+pon-onu-mng gpon-onu_1/3/12:80
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SUPRAYITNO-12/14 password JMP-SUPRAYITNO-12/14
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
+pon-onu-mng gpon-onu_1/3/12:81
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SUPRIANTO-12/5 password JMP-SUPRIANTO-12/5
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name UNNET-ID
+  ssid ctrl wifi_0/8 name UNNET-ID_5G
+!
+pon-onu-mng gpon-onu_1/3/12:82
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  service TR069 gemport 1 vlan 100
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-RIRIN-K-12/11 password JMP-RIRIN-K-12/11
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  vlan port wifi_0/8 mode tag vlan 1001
+  tr069-mgmt 1 state unlock
+  tr069-mgmt 1 acs http://172.17.11.6:7547 validate basic username unnet.acs password unnet.acs123
+  tr069-mgmt 1 tag pri 0 vlan 100
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid auth wep wifi_0/8 open-system
+  ssid ctrl wifi_0/4 name unnet
+  ssid ctrl wifi_0/8 name unnet_5G
+!
+pon-onu-mng gpon-onu_1/3/12:83
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  service TR069 gemport 1 vlan 100
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-RIRIN-K-N-12/11 password JMP-RIRIN-K-N-12/11
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  tr069-mgmt 1 state unlock
+  tr069-mgmt 1 acs http://172.17.11.6:7547 validate basic username unnet.acs password unnet.acs123
+  tr069-mgmt 1 tag pri 0 vlan 100
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name unnet
+!
+pon-onu-mng gpon-onu_1/3/12:84
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  service TR069 gemport 1 vlan 69
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SHOLIKIN-N-11/12 password JMP-SHOLIKIN-N-11/12
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  tr069-mgmt 1 state unlock
+  tr069-mgmt 1 acs http://172.17.11.6:7547 validate basic username unnet.acs password unnet.acs123
+  tr069-mgmt 1 tag pri 0 vlan 69
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET.ID
+!
+pon-onu-mng gpon-onu_1/3/12:85
+  service PPPOE gemport 1 vlan 1000
+  service HOTSPOT gemport 1 vlan 1001
+  service TR069 gemport 1 vlan 69
+  switchport-bind switch_0/1 iphost 1
+  switchport-bind switch_0/1 veip 1
+  pppoe 1 nat enable user JMP-SURAT-12/13 password JMP-SURAT-12/13
+  vlan-filter-mode iphost 1 tag-filter vlan-filter untag-filter discard
+  vlan-filter iphost 1 pri 0 vlan 1000
+  vlan port eth_0/3 mode tag vlan 1001
+  vlan port eth_0/4 mode tag vlan 1001
+  vlan port wifi_0/4 mode tag vlan 1001
+  tr069-mgmt 1 state unlock
+  tr069-mgmt 1 acs http://172.17.11.6:7547 validate basic username unnet.acs password unnet.acs123
+  tr069-mgmt 1 tag pri 0 vlan 69
+  security-mgmt 1 state enable mode forward protocol web 
+  ssid auth wep wifi_0/4 open-system
+  ssid ctrl wifi_0/4 name UNNET
+!
