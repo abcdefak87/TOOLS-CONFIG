@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Aplikasi scan barang masuk/keluar dengan QR code dan barcode scanner">
+<meta name="keywords" content="scan barang, inventory, qr code, barcode, warehouse">
+<meta name="author" content="Scan Barang App">
+<meta name="theme-color" content="#4CAF50">
+<title>Scan Barang Masuk/Keluar</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192x192.png">
+</head>
+<body>
+<div class="container">
+
+<header class="app-header">
+    <h2>📦 Scan Barang</h2>
+    <div class="header-controls">
+        <button id="themeToggle" class="theme-btn" title="Toggle Dark Mode">🌙</button>
+        <button id="exportBtn" class="export-btn" title="Export Data">📊</button>
+        <button id="settingsBtn" class="settings-btn" title="Settings">⚙️</button>
+    </div>
+</header>
+
+<div class="mode-select">
+    <label><input type="radio" name="mode" value="masuk" checked> Barang Masuk</label>
+    <label><input type="radio" name="mode" value="keluar"> Barang Keluar</label>
+</div>
+
+<div class="form-box">
+    <input type="text" id="nama" placeholder="Scan atau ketik nama barang" autofocus>
+    <input type="number" id="jumlah" value="1" min="1">
+    <input type="text" id="petugas" placeholder="Nama Petugas" list="petugasList">
+    <datalist id="petugasList">
+        <option value="Admin">
+        <option value="Petugas 1">
+        <option value="Petugas 2">
+    </datalist>
+    <input type="text" id="catatan" placeholder="Catatan">
+    <button id="btnManual">Kirim Manual</button>
+</div>
+
+<!-- Quick Actions -->
+<div class="quick-actions">
+    <div class="quick-quantity">
+        <span>Jumlah Cepat:</span>
+        <button class="qty-btn" data-qty="1">1</button>
+        <button class="qty-btn" data-qty="5">5</button>
+        <button class="qty-btn" data-qty="10">10</button>
+        <button class="qty-btn" data-qty="25">25</button>
+        <button class="qty-btn" data-qty="50">50</button>
+    </div>
+    <div class="quick-notes">
+        <span>Catatan Cepat:</span>
+        <button class="note-btn" data-note="Urgent">🚨 Urgent</button>
+        <button class="note-btn" data-note="Rusak">⚠️ Rusak</button>
+        <button class="note-btn" data-note="Retur">↩️ Retur</button>
+        <button class="note-btn" data-note="Sample">📦 Sample</button>
+    </div>
+</div>
+
+<hr>
+
+<h3>📷 Scan via Kamera HP</h3>
+<div id="reader"></div>
+<div id="msg">🔍 Arahkan kamera ke kode...</div>
+
+<!-- Search & Filter Section -->
+<div class="search-filter-section">
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="🔍 Cari nama barang...">
+        <select id="filterMode">
+            <option value="">Semua Mode</option>
+            <option value="MASUK">Barang Masuk</option>
+            <option value="KELUAR">Barang Keluar</option>
+        </select>
+        <button id="clearSearch">🗑️ Bersihkan</button>
+    </div>
+    <div class="filter-stats">
+        <span id="totalScans">Total: 0</span>
+        <span id="filteredScans">Ditampilkan: 0</span>
+    </div>
+</div>
+
+<div id="log"><strong>📜 Riwayat Scan</strong><div id="logList"></div></div>
+
+<audio id="beep-sound" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg"></audio>
+
+<!-- Settings Modal -->
+<div id="settingsModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>⚙️ Pengaturan</h3>
+        <div class="settings-section">
+            <h4>🔊 Audio</h4>
+            <label><input type="checkbox" id="enableSound" checked> Aktifkan suara</label>
+            <label><input type="checkbox" id="enableVibration"> Aktifkan getaran</label>
+        </div>
+        <div class="settings-section">
+            <h4>📱 Interface</h4>
+            <label><input type="checkbox" id="autoFocus"> Auto-focus setelah scan</label>
+            <label><input type="checkbox" id="showNotifications"> Tampilkan notifikasi</label>
+        </div>
+        <div class="settings-section">
+            <h4>💾 Data</h4>
+            <button id="exportData">Export Data</button>
+            <button id="clearData">Hapus Semua Data</button>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="https://unpkg.com/html5-qrcode@2.3.8"></script>
+<script src="script.js"></script>
+</body>
+</html>
