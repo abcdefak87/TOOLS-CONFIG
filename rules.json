@@ -23,7 +23,7 @@
     {
       "name": "replace_tcont_gemport",
       "active": true,
-      "blocks": ["Sec.2"],
+      "blocks": ["Sec.1"],
       "interface": "all",
       "type": "replace_multiple",
       "replace_multiple": [
@@ -42,38 +42,59 @@
       "new_lines": ["aabb enable"]
     },
     {
-      "name": "update_ssid_wifi",
+      "name": "normalize_ssid_names",
       "active": true,
-      "blocks": ["Sec.1"],
+      "blocks": ["Sec.2"],
       "interface": "all",
-      "type": "replace_text",
-      "from": "SSID_OLD",
-      "to": "SSID_NEW"
+      "type": "replace_multiple",
+      "replace_multiple": [
+        {"from": " name UNNET.ID_5G", "to": " name UNNET.ID_5G"},
+        {"from": " name UNNET-ID_5G", "to": " name UNNET.ID_5G"},
+        {"from": " name unnet-id_5G", "to": " name UNNET.ID_5G"},
+        {"from": " name unnet.id_5G", "to": " name UNNET.ID_5G"},
+        {"from": " name UNNET_5G", "to": " name UNNET.ID_5G"},
+        {"from": " name unnet_5G", "to": " name UNNET.ID_5G"},
+        {"from": " name UNNET.ID", "to": " name UNNET.ID"},
+        {"from": " name UNNET-ID", "to": " name UNNET.ID"},
+        {"from": " name unnet-id", "to": " name UNNET.ID"},
+        {"from": " name unnet.id", "to": " name UNNET.ID"},
+        {"from": " name UNNET", "to": " name UNNET.ID"},
+        {"from": " name unnet", "to": " name UNNET.ID"}
+      ]
     },
     {
       "name": "insert_tr069_before_hotspot",
       "active": true,
-      "blocks": ["Sec.1"],
+      "blocks": ["Sec.2"],
       "interface": "all",
       "type": "insert_line",
-      "target": "hotspot",
+      "target": "service HOTSPOT",
       "position": "before",
       "new_lines": ["tr069 enable"]
     },
     {
       "name": "insert_tr069_mgmt_after_wifi",
       "active": true,
-      "blocks": ["Sec.1"],
+      "blocks": ["Sec.2"],
       "interface": "all",
       "type": "insert_line",
-      "target": "wifi",
-      "position": "after",
+      "target": "ssid ctrl wifi",
+      "position": "after_last",
       "new_lines": ["tr069-mgmt enable"]
+    },
+    {
+      "name": "update_ssid_wifi",
+      "active": true,
+      "blocks": ["Sec.2"],
+      "interface": "all",
+      "type": "replace_text",
+      "from": "SSID_OLD",
+      "to": "SSID_NEW"
     },
     {
       "name": "update_tr069_user",
       "active": true,
-      "blocks": ["Sec.1"],
+      "blocks": ["Sec.2"],
       "interface": "all",
       "type": "replace_text",
       "from": "TR069_USER_OLD",
