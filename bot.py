@@ -51,21 +51,25 @@ def apply_insert_line(body, rule):
     last_idx = None
 
     for i, ln in enumerate(lines):
-        new_lines.append(ln)
         if rule.get("position") == "before" and target_pattern in ln and not inserted:
             for l in rule.get("new_lines", []):
                 new_lines.append(l + ("\n" if not l.endswith("\n") else ""))
             inserted = True
-        elif rule.get("position") == "after" and target_pattern in ln and not inserted:
+
+        new_lines.append(ln)
+
+        if rule.get("position") == "after" and target_pattern in ln and not inserted:
             for l in rule.get("new_lines", []):
                 new_lines.append(l + ("\n" if not l.endswith("\n") else ""))
             inserted = True
         elif rule.get("position") == "after_last" and target_pattern in ln:
-            last_idx = i
+            last_idx = len(new_lines) - 1
 
     if rule.get("position") == "after_last" and last_idx is not None:
         insert_idx = last_idx + 1
-        new_lines[insert_idx:insert_idx] = [l + ("\n" if not l.endswith("\n") else "") for l in rule.get("new_lines", [])]
+        new_lines[insert_idx:insert_idx] = [
+            l + ("\n" if not l.endswith("\n") else "") for l in rule.get("new_lines", [])
+        ]
 
     return "".join(new_lines)
 
@@ -109,6 +113,7 @@ def main():
         out.append(header)
         out.append(body)
         last = m.end()
+    out.append(text[last:])
     text_after_sec1 = "".join(out)
 
     # ----- Sec.2 / pon-onu-mng -----
@@ -125,6 +130,7 @@ def main():
     final_out.append(text_after_sec1[last:])
 
     # Write output
+    Path(OUTPUT).parent.mkdir(parents=True, exist_ok=True)
     Path(OUTPUT).write_text("".join(final_out), encoding="utf-8")
     print(f"Selesai. Hasil: {OUTPUT}")
 
